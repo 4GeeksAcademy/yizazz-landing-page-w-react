@@ -9,10 +9,10 @@ import "bootstrap"
 import '../styles/index.css'
 
 // components
-import Navbar from './components/navbar';
-import {Jumbotron} from './components/jumbotron';
-import {Container} from './components/container';
-import {Card} from './components/card';
+import Navbar from './components/Navbar';
+import {Jumbotron} from './components/Jumbotron';
+import {Container} from './components/Container';
+import {Card} from './components/Card';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
