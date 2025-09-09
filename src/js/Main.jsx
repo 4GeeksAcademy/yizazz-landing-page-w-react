@@ -10,13 +10,18 @@ import '../styles/index.css'
 
 // components
 import Navbar from './components/Navbar';
-import {Jumbotron} from './components/Jumbotron';
-import {Container} from './components/Container';
-import {Card} from './components/Card';
-
+import { Layout } from './Layout';
+import { Footer } from './components/Footer';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Navbar/>
-  </React.StrictMode>,
+    <div className="d-flex flex-column min-vh-100">
+      <Navbar />
+      <main className="flex-grow-1">
+        <Layout />
+      </main>
+      <Footer className="text-center py-3" />
+    </div>
+  </React.StrictMode>
 )
+

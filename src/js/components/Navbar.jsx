@@ -4,8 +4,8 @@ import React from "react";
 //create your first component
 const Navbar = () => {
 	return (
-		<nav className="navbar bg-dark border-bottom navbar-expand-sm border-body" data-bs-theme="dark">
-  <div className="container-fluid ">
+		<nav className="navbar bg-dark border-bottom navbar-expand-sm border-body fixed-top" data-bs-theme="dark">
+  <div className="container-fluid container">
     <a className="navbar-brand" href="#">Start Bootstrap</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
